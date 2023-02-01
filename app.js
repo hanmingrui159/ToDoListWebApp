@@ -4,13 +4,6 @@ const express = require("express");
 const mongoose = require("mongoose");
 const _ = require('lodash');
 
-// test lodash
-let abc = "ABC";
-
-console.log("------------")
-console.log(_.capitalize("ABC"));
-console.log("------------")
-
 const app = express();
 
 app.set('view engine', 'ejs');
